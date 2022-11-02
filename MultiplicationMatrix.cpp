@@ -24,6 +24,7 @@ vector<vector<int> > inputMaxtrix(){
     }
     return A;
 }
+
 void outputMatrix(vector<vector<int> > arr, string s){
     for(int i=0;i<arr.size();i++){
         if(i==0){
@@ -45,6 +46,7 @@ void outputMatrix(vector<vector<int> > arr, string s){
     }
     cout << "\n";
 }
+
 vector<vector<int> > multiplication(vector<vector<int> > arr1, vector<vector<int> > arr2){
     vector<vector<int> > arr;
     arr.resize(arr1.size());
@@ -63,6 +65,7 @@ vector<vector<int> > multiplication(vector<vector<int> > arr1, vector<vector<int
     }
     return arr;
 }
+
 vector<vector<int> > Mab(vector<vector<int> > arr, int a, int b){
     vector<vector<int> > arr1;
     int n=arr.size()-1;
@@ -85,6 +88,7 @@ vector<vector<int> > Mab(vector<vector<int> > arr, int a, int b){
     }
     return arr1;
 }
+
 int det(vector<vector<int> > arr){
     if(arr.size()==2)
         return arr[0][0]*arr[1][1]-arr[0][1]*arr[1][0];
@@ -99,11 +103,13 @@ int det(vector<vector<int> > arr){
         return result;
     }
 }
+
 void menu(){
     cout << "\n1.Multiplication Matrix (*)";
     cout << "\n2.Det() (.)";
     cout << "\n3.Exit";
 }
+
 int main(){
     int sel;
     system("cls");
