@@ -1,1 +1,2 @@
-Hello, my name's Pham Van Lap. I'm a student at Can Tho University.
+Hello, my name's Pham Van Lap.
+I'm a student at Can Tho University.
